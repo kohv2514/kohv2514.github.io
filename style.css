@@ -1,0 +1,78 @@
+*{
+	font-family: telugu_mn,Merriweather,serif;
+}
+/* IDS */
+
+/* nav */
+	#nabi{
+		background-image: linear-gradient(45deg, #A0A0A0, #606060);
+	}
+	#naabiba a{
+		padding: 30px;
+		color:#E68300;
+		text-shadow:1px 1px 2px #111;
+	}
+	#naabiba a:hover{
+		color: #F2BE0C;
+		-webkit-transition:0.4s;
+	}
+	#sponsors{
+	}
+	.navbar-brand{
+		filter: drop-shadow(2px 2px 1.5px rgba(11,11,11,0.6));
+	}
+body{
+	background-image: url(/Users/Victor/Documents/projeto/img/sphink1.png);
+}
+/* caru*/
+	#caru h2{
+		padding: 10px auto;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: #D1D1D1;
+		text-shadow: 1px 1px 1px #111;
+	}
+	.carousel-control-prev{
+		max-width: 5%;
+
+	}
+	.carousel-control-next{
+		max-width: 5%;
+	}
+/* Contact  */
+	.card{
+		background-color: rgba(230, 131, 0, 0.9);
+		filter: drop-shadow(10px 10px 5px rgba(155,155,155,0.4));
+	}
+	.contatainer{
+		margin:0.25rem 2rem 0 2rem;
+	}
+	#contactus{
+		color: #707070;
+		text-shadow: 0.5px 0.5px 1px #111;
+		font-size: 1.5em;
+		font-weight: 900;
+		font-family: 'ltc-squareface',sans-serif;
+	}
+/* Sponsors */
+	#sponsors{
+		color:#E68300;
+		text-shadow:1px 1px 2px #111;
+		background-color: rgba(110, 110, 110, 0.9);
+	}
+	#sponsors img{
+		filter: drop-shadow(10px 10px 8px rgba(222,222,222,0.5));
+		margin: 10px;
+		border:#111 solid 1px;
+	}
+/* Footer */
+	#foot{
+		background-image: linear-gradient(45deg, #A0A0A0, #606060);
+		font-size: 1.05em;
+	}
+	#foot img{
+		border: #808080 solid 1px;
+	}
+/* Modal */
+.modal-body{
+		background-image: url(/Users/Victor/Documents/projeto/img/slp_2x.jpg);
+	}
