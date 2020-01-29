@@ -148,12 +148,12 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://www.youtube.com/channel/UCGs8s8bwd2EqqcNRm4laufA">
-						<img src="kohv2514/kohv2514.github.io/img/utub.png">
+						<img src="img/utub.png">
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://freshlive.tv/esprs">
-						<img src="kohv2514.github.io/img/abema.jpg">
+						<img src="img/abema.jpg">
 					</a>
 				</li>
 			</ul>			
@@ -188,7 +188,7 @@
 			<div class="modal-content">
 				<div class="modal-body">
 					<button type="button" class="close" data-dismiss="modal">x</button>
-					<img src="/Users/Victor/Documents/projeto/img/slp_2x.jpg">
+					<img src="img/slp_2x.jpg">
 				</div>				
 			</div>
 		</div>		
