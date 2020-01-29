@@ -72,3 +72,11 @@ body{
 	#foot img{
 		border: #808080 solid 1px;
 	}
+/* Modal */
+	.modal {
+	background-color: green;
+}
+	.modal img{
+	max-width: 90%;
+	max-height: 90%;
+}
