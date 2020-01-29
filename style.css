@@ -73,8 +73,8 @@ body{
 		border: #808080 solid 1px;
 	}
 /* Modal */
-	.modal {
-	background-color: green;
+	.modal-title{
+	background-color: #363;
 }
 	.modal img{
 	max-width: 90%;
