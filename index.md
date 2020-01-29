@@ -32,7 +32,7 @@
 <!-- Navigation -->
 	<nav id="nabi" class="navbar navbar-expand-sm navbar-dark sticky-top">
 		<a class="navbar-brand">
-			<img class="img-fluid" src="/Users/Victor/Documents/projeto/img/esprs3.png" alt="ESPR'S">
+			<img class="img-fluid" src="img/esprs3.png" alt="ESPR'S">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#naabiba">
 			<span class="navbar-toggler-icon"></span>
@@ -73,37 +73,37 @@
 <!-- Slides -->
 			<div id="caru" class="carousel-inner rounded-lg">
 				<div class="carousel-item active">
-					<img src="/Users/Victor/Documents/projeto/img/ousside.jpeg">
+					<img src="img/ousside.jpeg">
 					<div class="carousel-caption LetCar">
 						<h2>ライブスペース</h2>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="/Users/Victor/Documents/projeto/img/meat2.jpg">
+					<img src="img/meat2.jpg">
 					<div class="carousel-caption LetCar">
 						<h2>BBQスペース</h2>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="/Users/Victor/Documents/projeto/img/event2.jpg">
+					<img src="img/event2.jpg">
 					<div class="carousel-caption LetCar">
 						<h2>フォトスタジオ</h2>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="/Users/Victor/Documents/projeto/img/spl22.jpg">
+					<img src="img/spl22.jpg">
 					<div class="carousel-caption LetCar">
 						<h2>メンテナンススペース</h2>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="/Users/Victor/Documents/projeto/img/cent2.jpg">
+					<img src="img/cent2.jpg">
 					<div class="carousel-caption LetCar">
 						<h2>イベントスペース</h2>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="/Users/Victor/Documents/projeto/img/tvstudio.jpg">
+					<img src="img/tvstudio.jpg">
 					<div class="carousel-caption LetCar">
 					<h2>インターネットTVスタジオ</h2>
 					</div>
@@ -138,22 +138,22 @@
 			<ul class="navbar-nav">
 				<li class="nav-item">
 					<a class="nav-link" href="https://www.facebook.com/ESPRSbroadcaster/">
-						<img src="/Users/Victor/Documents/projeto/img/face.png">
+						<img src="img/face.png">
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://www.instagram.com/esprs.broadcaster/">
-						<img src="/Users/Victor/Documents/projeto/img/insta.png">
+						<img src="img/insta.png">
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://www.youtube.com/channel/UCGs8s8bwd2EqqcNRm4laufA">
-						<img src="/Users/Victor/Documents/projeto/img/utub.png">
+						<img src="kohv2514/kohv2514.github.io/img/utub.png">
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://freshlive.tv/esprs">
-						<img src="/Users/Victor/Documents/projeto/img/abema.jpg">
+						<img src="kohv2514.github.io/img/abema.jpg">
 					</a>
 				</li>
 			</ul>			
@@ -171,15 +171,15 @@
 	<div id="sponsors" class="text-center">
 		<h2>Sponsored by</h2>
 		<a href="http://www.accel426.jp/">
-			<img class="img-fluid rounded-lg" src="/Users/Victor/Documents/projeto/img/banner8.jpg">
+			<img class="img-fluid rounded-lg" src="img/banner8.jpg">
 		</a>
 
 		<a href="http://www.woodies.jp/">
-			<img class="img-fluid rounded-lg" src="/Users/Victor/Documents/projeto/img/banner5.jpg">
+			<img class="img-fluid rounded-lg" src="img/banner5.jpg">
 		</a>
 
 		<a href="http://www.fafinc.net/">
-			<img class="img-fluid rounded-lg" src="/Users/Victor/Documents/projeto/img/banner_faf.jpg">
+			<img class="img-fluid rounded-lg" src="img/banner_faf.jpg">
 		</a>
 	</div>	
 <!-- Modal -->
