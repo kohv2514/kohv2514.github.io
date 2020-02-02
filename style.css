@@ -25,6 +25,10 @@ body{
 	background-image: url(img/sphinkk.png);
 }
 /* caru*/
+	.carousel-inner img{
+		width: 100%;
+		height: 100%;
+	}
 	#caru h2{
 		padding: 10px auto;
 		background-color: rgba(0, 0, 0, 0.5);
