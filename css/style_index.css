@@ -46,6 +46,8 @@ h2{
 .projects img{
 	margin: auto;
 }
+.about {
+	padding-bottom: 2em;
 .about h2{
 	padding-bottom: 1em; 
 }
@@ -64,5 +66,8 @@ h2{
 @media (max-width: 768px) {
 	#topNav {
 		padding-top: 5em;
+	}
+	.about {
+		padding: 2em;
 	}
 }
