@@ -13,7 +13,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<header>
 	<!-- Navigation -->
 	<div class="container-fluid">
@@ -32,13 +32,13 @@
 			<div class="collapse navbar-collapse" id="topNav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Projects</a>
+						<a class="nav-link" href="#projects">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="#about">About</a>
 					</li>
 				</ul>
 			</div>
@@ -46,21 +46,21 @@
 	</div>
 	</header>
 	<!-- Entry -->
-	<div class="container cur">
+	<div id="home" class="container cur">
 		<h2>Currently Learning Contents</h2>
 		<img id="html" src="img/html.svg">
 		<img src="img/js.jpg">
 		<img src="img/sql.svg">
 		<img id="python" src="img/python.svg">
 	</div>
-	<div class="container projects rounded-lg">
+	<div id="projects" class="container projects rounded-lg">
 			<h2>Projects</h2>
 			<a href="esprs.html">
 				<img src="img/esprs.png">
 			</a>
 	</div>
 
-	<div class="container about">
+	<div id="home" class="container about">
 		<h2>About</h2>
 		<div class="card">
 			<img class="card-img-top" src="img/foto.jpg" alt="CardImage">
