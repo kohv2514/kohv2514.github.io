@@ -67,6 +67,9 @@ h2{
 	#topNav {
 		padding-top: 5em;
 	}
+	.projects {
+		padding: 0;
+	}
 	.about {
 		padding: 2em;
 	}
