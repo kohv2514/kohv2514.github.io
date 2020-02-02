@@ -1,0 +1,68 @@
+*{
+	font-family: telugu_mn,Merriweather,serif;
+}
+h2{
+	font-weight: 900;
+}
+/* Header */
+.navbar-brand {
+	top: 0;
+	margin-left: 1em;
+	position: absolute;
+}
+.navbar {
+	min-height: 5em;
+}
+.logo img{
+	max-width: 90%;
+	max-height: 90%;
+	transition: 0.3s;
+}
+.shrinklogo img{
+	max-width: 70%;
+	max-height: 70%;
+}
+#topNav a{
+	color: #d2b069;
+	font-size: 1.25rem;
+	padding: 30px;
+}
+#topNav a:hover{
+	color: #F2D56D;
+}
+/* Entry */
+#html {
+	height: 120px;
+}
+#python {
+	height: 120px;
+}
+.container {
+	margin-top: 10em;
+	padding: 10em;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.projects img{
+	margin: auto;
+}
+.about h2{
+	padding-bottom: 1em; 
+}
+.card img{
+	margin: auto; 
+	max-width: 50%;
+	max-height: 50%;
+}
+.fa-envelope {
+	margin: auto;
+	font-size: 100px;
+}
+/*-------------------
+	Media Query
+-------------------*/
+@media (max-width: 768px) {
+	#topNav {
+		padding-top: 5em;
+	}
+}
