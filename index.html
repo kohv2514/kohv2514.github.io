@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Victor's Portfolio</title>
+	<meta charset="utf-8">
+<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/style_index.css">
+<!-- Font Awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+	<!-- Navigation -->
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+		<!-- Logo -->
+		<div class="logo">
+			<a class="navbar-brand" id="logo" href="#">
+				<img src="img/logo.png">
+			</a>
+		</div>
+		<!-- Collapse -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		<!--links-->
+			<div class="collapse navbar-collapse" id="topNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	</header>
+	<!-- Entry -->
+	<div class="container cur">
+		<h2>Currently Learning Contents</h2>
+		<img id="html" src="img/html.svg">
+		<img src="img/js.jpg">
+		<img src="img/sql.svg">
+		<img id="python" src="img/python.svg">
+	</div>
+	<div class="container projects rounded-lg">
+			<h2>Projects</h2>
+			<a href="esprs.html">
+				<img src="img/esprs.png">
+			</a>
+	</div>
+
+	<div class="container about">
+		<h2>About</h2>
+		<div class="card">
+			<img class="card-img-top" src="img/foto.jpg" alt="CardImage">
+			<div class="card-body">
+				<h3>Victor Koichi Hirano</h3>
+				<p> Currently working as heavy machinery operator at a recycle site.<br>Studying Web design in free times.</p>
+			</div>
+			<h2>Contact</h2>
+			<i class="fas fa-envelope"></i>
+			<p>victor.k.hirano@gmail.com</p>
+		</div>
+	</div>
+<!-- Logo Shrink -->
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById('logo').className = "shrinklogo";
+  } else {
+    document.getElementById('logo').className = "logo";
+  }
+}
+</script>
+<!-- @Popperjs -->
+	<script src="https://unpkg.com/@popperjs/core@2.0.0-rc.3"></script>
+<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Bootstrapjs -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
